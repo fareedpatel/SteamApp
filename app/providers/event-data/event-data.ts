@@ -22,7 +22,7 @@ export class EventData {
     });
   }
 
-  deleteEvent(eventName: string, eventData: string, eventPrice: number, eventCost: number): any {
+  deleteEventList(eventName: string, eventDate: string, eventPrice: number, eventCost: number): any {
     return this.eventList.delete();
   }
 

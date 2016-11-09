@@ -21,6 +21,6 @@ export class EventDetailPage {
    }
 
    deleteEvent(eventName: string, eventDate: string, eventPrice: number, eventCost: number) {
-     this.eventData.deleteEvent(eventName, eventData, eventPrice, eventCost);
+     this.eventData.deleteEvent();
    }
 }
